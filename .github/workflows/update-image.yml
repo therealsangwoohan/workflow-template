@@ -29,5 +29,5 @@ jobs:
                   context: .
                   file: ./Dockerfile
                   push: true
-                  tags: therealsangwoohan/docker-github_actions-playground:latest
+                  tags: therealsangwoohan/workflow-template:latest
                   build-args: MESSAGE=${{ secrets.MESSAGE }}
