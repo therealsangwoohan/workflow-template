@@ -30,4 +30,3 @@ jobs:
                   file: ./Dockerfile
                   push: true
                   tags: therealsangwoohan/workflow-template:latest
-                  build-args: MESSAGE=${{ secrets.MESSAGE }}

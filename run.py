@@ -10,7 +10,7 @@ load_dotenv()
 
 @app.route("/")
 def hello_world():
-    return os.environ["MESSAGE"] + "!"
+    return os.environ["MESSAGE"]
 
 
 if __name__ == "__main__":
